@@ -3,11 +3,38 @@ body{
     padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
-nav{
-    background-color: blue;
-    color:white;
-    font-weight: bold;
-
+    text-decoration: none;
+    list-style: none;
 
 }
+
+#nav-bar {
+    background-color: orange;
+    padding-bottom: 0.2cm;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0.2cm;    
+    font-size: medium;
+    
+    
+}
+
+.nav {
+    color: white;    
+    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+
+}
+
+#welcome-section {
+   
+   align-items: center;
+}
+
+
+
