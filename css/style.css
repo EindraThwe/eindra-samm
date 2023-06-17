@@ -6,15 +6,18 @@ body{
     text-decoration: none;
     list-style: none;
 
+
 }
 
 #nav-bar {
-    background-color: orange;
+    
     padding-bottom: 0.2cm;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 1.5rem;
     padding-top: 0.2cm;    
     font-size: medium;
+    width:100%;
+    display:flex;
+    align-items: end;
     
     
 }
@@ -23,17 +26,60 @@ body{
     color: white;    
     font-size: 20px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
+    gap:1rem;
     width: 100%;
     position: fixed;
     top: 0%;
     z-index: 10;
+    
+
+    
 
 }
 
 #welcome-section {
-   
-   align-items: center;
+    font-size:2rem;
+    text-align: center;
+  background-color:antiquewhite;
+  padding-top:1cm;
+  padding-bottom:1cm;
+  
+}
+h3{
+    font-size:1.2rem;
+    align-items:center ;
+}
+ h1,span{
+    text-align: center;
+}
+.project-tile{
+    display:grid;
+    grid :auto auto auto;
+    object-fit: cover;
+}
+section,a{
+    text-align:center;
+    margin-top:2px;
+    margin-bottom:2px ;
+}
+img{
+    display: block;
+    width:100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   padding:0.5rem 0.5rem;
+
+
+}
+#profile-link, a{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+
+}
+footer{
+    flex-direction: column;
+    text-align: center;
 }
 
 
